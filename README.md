@@ -1,6 +1,12 @@
 # APK-PREMIUM-CRACKING-
 
-`bash
-git remote add origin https://github.com/kouakou669/APK-PREMIUM-CRACKING-.git
+
+`git remote add origin 
+
+https://github.com/kouakou669/APK-PREMIUM-CRACKING-.git
+
 git branch -M main
-git push -u origin main`
+
+git push -u origin main`°
+
+

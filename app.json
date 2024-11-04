@@ -1,0 +1,22 @@
+{
+    "name": "hacking-md-pairing",
+    "description": "I am Hacking-Md. A Simple Multidevice Whatsapp Bot built in NodeJs to make experience better.",
+    "logo": "https://github.com/HACKING995.png",
+    "repository": "https://github.com/HACKING995/HACKING-MD955",
+    "keywords": ["whatsappbot", "hackingMd", "hacking Md bot", "Hacking-Md", "HackingMdWhatsappBot", "HackingWaBot","HackingMD","Hacking Md Whatsapp Bot","multi device"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "Don't Fill in As it Will be of no Use",
+        "required": false 
+      }
+    }   
+
+}

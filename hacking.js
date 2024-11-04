@@ -14,6 +14,11 @@ res.sendFile(__path + '/pair.html')
 app.use('/',async (req, res, next) => {
 res.sendFile(__path + '/hacking.html')
 })
+
+app.use('/',async (req, res, next) => {
+res.sendFile(__path + '/styles.css')
+})
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(PORT, () => {
